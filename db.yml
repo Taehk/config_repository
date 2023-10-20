@@ -1,14 +1,11 @@
 spring:
- application:
-   name: User-Service
   datasource:
-   url: ${dbUrl}
-   username: ${dbName}
-   password: ${dbPassword}
- jpa:
-   hibernate:
-     ddl-auto: update
-   properties:
-     hibernate:
-       format_sql: true
-   show-sql: true
+    username: ${dbName}
+    password: ${dbPassword}
+  # jpa:
+  #   hibernate:
+  #     ddl-auto: update
+  #   properties:
+  #     hibernate:
+  #       format_sql: true
+  #   show-sql: true
