@@ -1,4 +1,7 @@
 spring:
+  application:
+    name: ${userName}
   datasource:
+    url: ${dbUrl}
     username: root
     password: 1234
