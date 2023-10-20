@@ -1,11 +1,4 @@
 spring:
   datasource:
-    username: ${dbName}
-    password: ${dbPassword}
-  # jpa:
-  #   hibernate:
-  #     ddl-auto: update
-  #   properties:
-  #     hibernate:
-  #       format_sql: true
-  #   show-sql: true
+    username: root
+    password: 1234
