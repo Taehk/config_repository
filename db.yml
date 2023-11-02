@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: ${userName}
+    name: ${appName}
   datasource:
     url: ${dbUrl}
     username: root
